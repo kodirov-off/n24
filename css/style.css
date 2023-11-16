@@ -1,3 +1,4 @@
+/* font-family: 'Rubik', sans-serif; */
 *{
   box-sizing: border-box;
 }
@@ -11,11 +12,26 @@ body{
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: #fff;
   padding: 0;
   margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Rubik","Arial", sans-serif;
+  color: #4a4b4c;
 }
 
 img{
   width: 100%;
   height: auto;
+}
+
+/* CONTAINER */
+.container{
+  width: 100%;
+  min-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
